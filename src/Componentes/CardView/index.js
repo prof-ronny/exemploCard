@@ -22,11 +22,11 @@ const CardText = styled.p`
   font-size: 14px;
 `;
 
-function CardView(props) {
+function CardView() {
   return (
-    <CardContainer id={props.key}>
-      <CardTitle>{props.Titulo}</CardTitle>
-      <CardText>{props.Conteudo}</CardText>
+    <CardContainer>
+      <CardTitle>Titulo</CardTitle>
+      <CardText>Conteudo</CardText>
     </CardContainer>
   );
 }

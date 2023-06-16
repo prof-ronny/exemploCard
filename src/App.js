@@ -1,14 +1,16 @@
 import BarraMenu from "./Componentes/BarraMenu";
 import "./styles.css";
-import CardLista from "./Componentes/CardLista";
 import ContainerPrincipal from "./Componentes/ContainerPrincipal";
+import CardView from "./Componentes/CardView";
 
 export default function App() {
   return (
     <div className="App">
       <BarraMenu />
       <ContainerPrincipal>
-        <CardLista />
+        <CardView />
+        <CardView />
+        <CardView />
       </ContainerPrincipal>
     </div>
   );
